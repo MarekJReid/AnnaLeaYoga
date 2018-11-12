@@ -1,10 +1,26 @@
-#hero {
-    background: url(https://images.unsplash.com/photo-1527954576365-e40429edc66f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc1b2f23696a23b8b0860c34e0db50f3&auto=format&fit=crop&w=2812&q=80);
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+}
+
+#hero {
+    background-image: url(https://images.unsplash.com/photo-1527954576365-e40429edc66f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc1b2f23696a23b8b0860c34e0db50f3&auto=format&fit=crop&w=2812&q=80);
     background-position: center;
     height: 100vh;
    
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #inbetween {
@@ -122,6 +138,11 @@ hr {
 
 #yoga {
     background-image: url(https://images.unsplash.com/photo-1502378152209-813caf9ddb71?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9ab680b720390f27e1ee2e1168385e9&auto=format&fit=crop&w=2736&q=80);
+    height: 100vh;
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     color: grey;
@@ -139,41 +160,8 @@ hr {
 }
 
 
-#instafeed {
-  max-width: 1080px;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-#instafeed a {
-  display: flex;
-  align-items: center;
-  position: relative;
-  width: 50%;
-  background: white;
-  border: 1px solid lightgrey;
-  margin: 3rem;
-}
-@media only screen and (min-width: 580px) {
-  #instafeed a {
-    width: 25%;
-  }
-}
-#instafeed a img {
-  display: block;
-  width: 80%;
-  height: 80%;
- 
-}
 
-.captions {
-    font-size: 2rem;
-}
 
-.yogaimg {
-    
-}
 
 
 
