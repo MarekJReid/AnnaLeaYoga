@@ -1,17 +1,8 @@
-.parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html {
+    scroll-behavior: smooth;
+  }
+body {margin: 0;
 }
-
 #hero {
     background-image: url(https://images.unsplash.com/photo-1527954576365-e40429edc66f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc1b2f23696a23b8b0860c34e0db50f3&auto=format&fit=crop&w=2812&q=80);
     background-position: center;
@@ -25,7 +16,7 @@
 
 #inbetween {
    
-    height: 20vh;
+    height: 10px;
     background-size: cover;
     background-position: center;
 }
@@ -83,7 +74,7 @@ hr {
 
 .yoga-icon img {
     height: 3.5rem;
-    margin-top: .5rem;
+    
     padding-right: 2rem;
 }
 
@@ -123,18 +114,7 @@ hr {
 
 
 
-.row-about {
-    height: 10%;
-    color: grey;
-}
 
-#yoga-a {
-    height: 100vh;
-}
-
-.imgabout {
-    height: 100vh;
-}
 
 #yoga {
     background-image: url(https://images.unsplash.com/photo-1502378152209-813caf9ddb71?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9ab680b720390f27e1ee2e1168385e9&auto=format&fit=crop&w=2736&q=80);
@@ -159,7 +139,115 @@ hr {
     font-weight: 200;
 }
 
+#about {
+    outline: 0;
+    
+    padding: 10rem 0 10rem 0 !important;
+}
 
+#contact{
+    height: 100vh;
+    background: blueviolet;
+}
+.hvr-shutter-out-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-shutter-out-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(235, 166, 116, 0.4);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: white;
+  }
+  .hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  #workshops {
+      height: 100vh;
+     
+      
+      position: relative;
+  }
+
+  .book {
+    background-image: url(https://images.unsplash.com/photo-1529693662653-9d480530a697?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=60a591f3013d1b32d37a312fb6fd1cd3&auto=format&fit=crop&w=1778&q=80);
+      height: 85%;
+      width: 85%;
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+  }
+
+  #some-element {
+    border: 1px solid #ccc;
+    display: none;
+    font-size: 10px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    text-transform: uppercase;
+    position: absolute;
+    outline: 0;
+    
+  }
+
+#some-div:hover #some-element {
+    display: block;
+    display: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 60%;
+    border: none;
+    
+    
+  }
+
+  .hover {
+      height: 100vh;
+      width: 100%;
+      display: block;
+      position: absolute;
+      top: -5rem;
+      color: white;
+  }
 
 
 
