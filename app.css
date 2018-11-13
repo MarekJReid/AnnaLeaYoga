@@ -147,7 +147,7 @@ hr {
 
 #contact{
     height: 100vh;
-    background: blueviolet;
+    
 }
 .hvr-shutter-out-horizontal {
     display: inline-block;
@@ -201,7 +201,7 @@ hr {
     background-image: url(https://images.unsplash.com/photo-1529693662653-9d480530a697?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=60a591f3013d1b32d37a312fb6fd1cd3&auto=format&fit=crop&w=1778&q=80);
       height: 85%;
       width: 85%;
-      background-attachment: fixed;
+      
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,7 +209,6 @@ hr {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      
   }
 
   #some-element {
@@ -217,7 +216,7 @@ hr {
     display: none;
     font-size: 10px;
     margin-top: 10px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.01);
     height: 100%;
     width: 100%;
     padding: 5px;
@@ -228,13 +227,25 @@ hr {
   }
 
 #some-div:hover #some-element {
-    display: block;
+    display: inline-block;
     display: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 80%;
-    width: 60%;
+    width: 90%;
+    border: none;
+    
+    
+  }
+  #some-div:active #some-element {
+    display: inline-block;
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 90%;
     border: none;
     
     
@@ -249,7 +260,92 @@ hr {
       color: white;
   }
 
+  .events {
+    height: 65vh;;
+    width: 100%;
+    margin: 0 auto;
+    padding: 4rem;
+    background: rgb(0,0,0, 0.5);
+    color: white;
+    display: block;
+
+  }
+  .tutoring {
+    height: 65vh;;
+      width: 100%;
+      margin: 0 auto;
+      padding: 4rem;
+      background: rgb(0,0,0, 0.5);
+      color: white;
+      display: block;
+}
+
+.workshops_heading_box {
+    background: rgb(0, 0, 0, 0.2);
+    color: white;
+    height: 6rem;
+    line-height: 2;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 1rem 0 1rem 0;
+}
+
+li {
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+    padding: .5rem 0 .5rem 0;
+}
+
+.btn-dark {
+    background: rgba(0, 0, 0, 0.418);
+    width: 60%;
+    margin-left: 20%;
+}
+
+.contact_area{
+    height: 80vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de3a8532e9be6e0d3f35c15a471ed569&auto=format&fit=crop&w=1570&q=80);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10rem auto;
+
+    position: absolute;
+    
+    
+}
+.form_pic {
+    padding-top: 2rem;
+    height: 80%;
+    
+}
 
 
+
+.social {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#footer {
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    background: rgb(56, 55, 55);
+}
+
+.row-footer {
+    padding: 2.5rem;
+    color: white;
+    font-weight: 300;
+}
 
 
